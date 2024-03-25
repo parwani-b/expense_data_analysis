@@ -1,0 +1,9 @@
+db_connection_info:
+  expense_data_warehouse:
+    host: 127.0.0.1
+    user: username
+    passwd: pass
+    db: db_name
+paths:
+  base_filepath: \\path\to\file\file_name.csv
+  log_path: \\path\to\logs\expense_data_analysis.log
