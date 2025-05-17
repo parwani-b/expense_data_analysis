@@ -5,9 +5,7 @@ from datetime import datetime
 from colorama import init
 from termcolor import colored
 
-# I don't know about this but either colorama or termcolor uses it 
 init()
-
 
 # Function to establish MySQL connection
 def create_connection(host, user, password, database):
