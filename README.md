@@ -1,7 +1,7 @@
 # expense_data_analysis
 This repository contains my latest work for exploratory data analysis of my everyday expenses. Below is the explanation of how to use this tool for expense analysis -
 
-------------------------------------------    How does expense_data_dump script functions? ------------------------------------------
+-------------------------------------    How does expense_data_dump script functions? -------------------------------------
 
 1] The expense_data_dump.py script takes the expense data in csv format and drops any unnecessary columns in the data that are not needed for exploratory analysis like names of people, currency. We can also drop any other columns from the data that are irrelevant for the analysis
 
@@ -11,7 +11,7 @@ This repository contains my latest work for exploratory data analysis of my ever
 
 4] Stores fresh data from the csv file to MySQL table
 
------------------------------------------    How does expense_tracker_menu script functions? -----------------------------------------
+------------------------------------    How does expense_tracker_menu script functions? ------------------------------------
 
 1] The initial run of the script provides the user with 3 options:
    
