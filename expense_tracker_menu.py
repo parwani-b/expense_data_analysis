@@ -15,9 +15,9 @@ def create_connection(host, user, password, database):
     try:
         connection = mysql.connector.connect(
             host="127.0.0.1",
-            user="root",
-            password="root",
-            database="expense_data_dev_test"
+            user="user",
+            password="pass",
+            database="expense_data"
         )
         if connection.is_connected():
             print(colored('\n••••••••••••••', 'green'))
